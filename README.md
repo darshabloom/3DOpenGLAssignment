@@ -1,6 +1,6 @@
 # 3D OpenGL Assignment — Underwater Scene
 
-A university computer graphics assignment by **Darsha Waterhouse**, implemented in C using **OpenGL** and **FreeGLUT**.
+A university **Computer Graphics and Programming** project by **Darsha Waterhouse**, implemented in **procedural C** using **OpenGL** and **FreeGLUT**. The project follows the *Octopus Scene* assignment specification and develops an interactive 3D underwater animation.
 
 ## Overview
 
@@ -13,6 +13,12 @@ Features visible in the source include:
 - Heightmap-based seabed geometry, sand/rock textures and 16 animated caustic frames.
 - Lighting effects, including an octopus-related spotlight.
 - Optional coordinate display, wireframe rendering and an in-app keybind overlay.
+
+## Assignment objectives
+
+The assignment calls for a scaled 3D environment, a hierarchical animated octopus model, a track-and-follow camera, smooth simultaneous keyboard controls, and effective use of fixed-function OpenGL lighting, materials, texture mapping, display lists and fog. The octopus is designed to move in surge (forward/backwards), sway (sideways), heave (vertical movement) and yaw (turning), with animated feet and a propeller.
+
+The assessment also asks for an engaging complete scene with additional objects and animation effects, plus a development logbook explaining design decisions and progress. These are **assignment requirements**; the overview above describes features present in the repository's source code.
 
 ## Controls
 
@@ -74,4 +80,4 @@ The executable loads image files relative to its current working directory. If i
 
 ## About this repository
 
-This repository contains the source and a portable build workflow. It was reorganised to keep scene assets together. This README describes functionality observable in the source; the formal assessment brief and report have not been reviewed for an authoritative statement of requirements or design decisions.
+This repository contains the source code, FreeGLUT dependencies, scene assets and a portable Windows build workflow. Its structure was reorganised to keep animated texture frames and the heightmap together. The project description uses the *Computer Graphics and Programming — Octopus Scene* assignment specification alongside features observed in the source. The separate developer logbook and complete assessment submission are not included here.
