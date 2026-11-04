@@ -19,6 +19,8 @@ jobs:
           mkdir PortableOpenGL
           cl /nologo /O2 /MT /W3 /I "." "3DAssignment02_DarshaWaterhouse.c" /link /LIBPATH:"." freeglut.lib opengl32.lib glu32.lib /OUT:"PortableOpenGL\Assignment01_DarshaWaterhouse.exe"
           copy "freeglut.dll" "PortableOpenGL\freeglut.dll"
+          copy "assets\*.bmp" "PortableOpenGL\"
+          copy "assets\*.ppm" "PortableOpenGL\"
       - name: Upload portable app
         uses: actions/upload-artifact@v4
         with:
